@@ -1,3 +1,5 @@
+//Codigo de Jose Miguel Mateo Valdivia Castillo
+
 #include <iostream>
 
 int Contenedores_Max(int* Pesos, int size, int Capacidad) {
@@ -17,7 +19,6 @@ int Contenedores_Max(int* Pesos, int size, int Capacidad) {
     return cont;
 }
 
-// b) Maximiza la cantidad de toneladas cargadas (arreglo ordenado de mayor a menor)
 int Toneladas_Max(int* Pesos, int size, int Capacidad) {
     int suma = 0;
 
